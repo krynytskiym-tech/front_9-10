@@ -1,0 +1,60 @@
+.formCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px;
+}
+.formCard h3 {
+  margin: 0 0 20px;
+  color: #0f172a;
+}
+label {
+  display: block;
+  margin-bottom: 18px;
+  color: #334155;
+}
+input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+  border-color: #4338ca;
+  box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.12);
+}
+.error {
+  display: block;
+  margin-top: 8px;
+  color: #dc2626;
+  font-size: 0.9rem;
+}
+.submit {
+  width: 100%;
+  margin-top: 6px;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 14px;
+  background: #4338ca;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.submit:hover:not(:disabled) {
+  background: #3730a3;
+}
+.submit:disabled {
+  background: #c7d2fe;
+  cursor: not-allowed;
+}
+.message {
+  margin-top: 14px;
+  color: #0f5132;
+  background: #ecfdf5;
+  padding: 12px 14px;
+  border-radius: 14px;
+}

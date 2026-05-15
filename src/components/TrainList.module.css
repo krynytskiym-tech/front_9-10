@@ -1,0 +1,12 @@
+.list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.empty {
+  padding: 36px;
+  text-align: center;
+  color: #475569;
+  background: #f8fafc;
+  border-radius: 18px;
+}

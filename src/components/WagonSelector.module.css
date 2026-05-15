@@ -1,0 +1,33 @@
+.selector {
+  border: 1px solid #e2e8f0;
+  padding: 22px;
+  border-radius: 20px;
+  background: #fff;
+}
+.selector h3 {
+  margin: 0 0 14px;
+  font-size: 1rem;
+  color: #0f172a;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+button {
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #0f172a;
+  border-radius: 999px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+button:hover {
+  border-color: #4338ca;
+}
+.selected {
+  border-color: #4338ca;
+  background: #eef2ff;
+  color: #1e293b;
+}
