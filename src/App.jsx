@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { HashRouter, Link, Route, Routes } from 'react-router-dom'
 import { BookingProvider } from './context/BookingContext'
 import Home from './pages/Home'
 import Booking from './pages/Booking'
@@ -7,7 +7,7 @@ import './App.css'
 function App() {
   return (
     <BookingProvider>
-      <BrowserRouter>
+      <HashRouter>
         <div className="app-shell">
           <header className="app-header">
             <div>
@@ -16,7 +16,7 @@ function App() {
             </div>
             <nav className="app-nav">
               <Link to="/">Потяги</Link>
-              <Link to="/">Бронювання</Link>
+              <Link to="/booking/1">Бронювання</Link>
             </nav>
           </header>
 
@@ -31,7 +31,7 @@ function App() {
             <p>Лабораторні 9–10, React + Routing + State Management + LocalStorage.</p>
           </footer>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </BookingProvider>
   )
 }
